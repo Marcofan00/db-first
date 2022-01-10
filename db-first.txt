@@ -1,0 +1,35 @@
+nome tabella	auto usate
+
+default		notnull
+
+
+
+id			unique primary key auto_increment	
+
+marca			varchar(20)				
+
+modello			varchar(20)
+
+colore  			varchar(15)				
+
+cambio  			varchar(10)
+
+alimentazione           	varchar(10)
+
+targa			varchar(15) unique			
+
+anno_modello		year					
+
+motore			varchar(20)				
+
+immatricolazione		year					
+
+km			int					
+
+prezzo			int decimal			
+
+proprietari		tinyint					
+
+
+
+			
